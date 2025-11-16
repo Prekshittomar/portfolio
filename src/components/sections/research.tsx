@@ -2,7 +2,6 @@ import { ArrowUpRight } from "lucide-react";
 
 interface IResearchData {
   DATE: string;
-  TIME: string;
   LINK: string;
   DESCRIPTION: string;
 }
@@ -34,9 +33,6 @@ export function Research({ data }: { data: Record<string, IResearchData> }) {
                 >
                   Read more <ArrowUpRight size={18} />
                 </a>
-                <span className="px-1 py-px text-xs">
-                  {value.TIME} min read
-                </span>
               </p>
 
               <p className="mt-1 text-muted-foreground text-sm text-justify line-clamp-3">

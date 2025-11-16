@@ -149,7 +149,21 @@ export const DATA = {
     },
   },
 
-  RESEARCH: {},
+  RESEARCH: {
+    "Lumynary: Interaction with Data using LLM and Streamlit": {
+      DATE: "June 30, 2025",
+      LINK: "https://zenodo.org/records/15793308",
+      DESCRIPTION:
+        "Lumynary is an interactive Streamlit-based platform that uses large language models to transform how users engage with data. It provides automated analysis of CSV/Excel files, PDF-based conversations using Google Gemini, image-to-recipe generation, and interactive dialogue with YouTube videos. Powered by FAISS, LangChain, PyPDF2, PIL, and YouTubeTranscriptAPI, Lumynary makes multimodal AI tools accessible to non-technical users. The system highlights the powerful potential of LLMs to simplify data analysis, enhance document understanding, and enable creative multimedia interaction—all within one unified application.",
+    },
+    "Retrieval Augmented Generation: GITA (RAG-GITA) for Sustainable Spiritual Conversations":
+      {
+        DATE: "May 30, 2025",
+        LINK: "https://zenodo.org/records/15801584",
+        DESCRIPTION:
+          "RAG-GITA is an interactive GenAI system designed to preserve and modernize the wisdom of the Bhagavad Gita. Using Retrieval-Augmented Generation (RAG), LangChain, FAISS vector search, and Google Gemini embeddings, it delivers spiritually grounded, context-aware responses to user queries. Through a Streamlit interface styled like conversations with Lord Krishna, the system promotes self-awareness, ethical decision-making, and eco-conscious thinking—showcasing how ancient Indian philosophy can guide modern challenges.",
+      },
+  },
 
   SKILLS: {
     Languages: ["Python", "R", "C", "C++", "Java", "SQL"],
