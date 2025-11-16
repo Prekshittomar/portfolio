@@ -3,13 +3,13 @@
 import { DATA } from "@/app/data";
 import {
   AboutMe,
-  Blogs,
   Contact,
   Experience,
   Footer,
   Header,
   Navbar,
   Projects,
+  Research,
   Skills,
 } from "@/components/sections";
 import GridPattern from "@/components/ui/grid-pattern";
@@ -36,7 +36,7 @@ export default function Page() {
         <AboutMe data={DATA.ABOUT_ME} />
         <Experience data={DATA.EXPERIENCE} />
         <Projects data={DATA.PROJECTS} />
-        <Blogs data={DATA.BLOGS} />
+        <Research data={DATA.RESEARCH} />
         <Skills data={DATA.SKILLS} />
         <Contact data={DATA.HEADER} />
         <Footer />

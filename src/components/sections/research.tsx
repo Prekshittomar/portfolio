@@ -1,17 +1,17 @@
 import { ArrowUpRight } from "lucide-react";
 
-interface IBlogData {
+interface IResearchData {
   DATE: string;
   TIME: string;
   LINK: string;
   DESCRIPTION: string;
 }
 
-export function Blogs({ data }: { data: Record<string, IBlogData> }) {
+export function Research({ data }: { data: Record<string, IResearchData> }) {
   return (
-    <div id="blogs" className="py-10">
+    <div id="research" className="py-10">
       <h2 className="font-medium text-primary/90 text-base">
-        technical blogs.
+        research papers.
       </h2>
 
       <ul className="flex flex-col gap-12 mt-4 font-normal text-primary/90 text-base">

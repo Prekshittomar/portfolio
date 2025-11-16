@@ -1,14 +1,5 @@
 import { StaticImageData } from "next/image";
 
-import {
-  AirwatchImage,
-  LibraryImage,
-  SkygazeImage,
-  TodoImage,
-  VIPSImage,
-  VueBitsImage,
-} from "@/assets";
-
 export interface IProjectData {
   LIVE_PREVIEW?: string;
   GITHUB?: string;
@@ -25,10 +16,10 @@ export const DATA = {
     PRONOUN: "he/him",
     HEADLINE:
       "Aspiring Data Scientist & Generative AI Engineer passionate about data-driven innovation and intelligent systems.",
-    RESUME: "#", // Add your resume link
-    EMAIL: "mailto:prekshittomar@gmail.com", // Update if needed
-    GITHUB: "https://github.com/PrekshitTomar", // Update if needed
-    LINKEDIN: "https://www.linkedin.com/in/prekshit-tomar", // Update if needed
+    RESUME: "#",
+    EMAIL: "mailto:prekshittomar@gmail.com",
+    GITHUB: "https://github.com/PrekshitTomar",
+    LINKEDIN: "https://www.linkedin.com/in/prekshit-tomar",
   },
 
   ABOUT_ME: {
@@ -40,7 +31,8 @@ export const DATA = {
 
   EXPERIENCE: {
     "Ransh Innovations Private Limited — Generative AI Data Scientist Intern": {
-      WEBSITE: "https://www.linkedin.com/company/ransh-innovations/posts/?feedView=all",
+      WEBSITE:
+        "https://www.linkedin.com/company/ransh-innovations/posts/?feedView=all",
       POSITION: "Generative AI Data Scientist Intern",
       LOCATION: "Remote",
       DURATION: "Aug 2024 – Jan 2025",
@@ -63,7 +55,8 @@ export const DATA = {
     },
 
     "Ransh Innovations Private Limited — Prompt Engineer Intern": {
-      WEBSITE: "https://www.linkedin.com/company/ransh-innovations/posts/?feedView=all",
+      WEBSITE:
+        "https://www.linkedin.com/company/ransh-innovations/posts/?feedView=all",
       POSITION: "Prompt Engineer Intern",
       LOCATION: "Remote",
       DURATION: "Oct 2024 – Dec 2024",
@@ -156,7 +149,7 @@ export const DATA = {
     },
   },
 
-  BLOGS: {},
+  RESEARCH: {},
 
   SKILLS: {
     Languages: ["Python", "R", "C", "C++", "Java", "SQL"],
@@ -185,4 +178,3 @@ export const DATA = {
     GenAI: ["OpenAI", "Gemini", "Claude", "Meta", "DeepSeek", "LLama3", "Phi3"],
   },
 };
-
