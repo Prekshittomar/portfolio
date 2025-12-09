@@ -51,7 +51,7 @@ export function Contact({ data }: { data: Record<string, string> }) {
             <Linkedin className="w-5 h-5" />
           </Link>
           <Link
-            href="mailto:singhalutkarsh26@gmail.com"
+            href="mailto:tomarparikshit28033@gmail.com"
             className="text-gray-400 hover:text-white transition-colors"
             onClick={() => handleChange(data.EMAIL)}
           >
