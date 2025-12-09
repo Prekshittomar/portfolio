@@ -1,5 +1,7 @@
 import { StaticImageData } from "next/image";
 
+import { Lumynary, RagGita } from "../assets";
+
 export interface IProjectData {
   LIVE_PREVIEW?: string;
   GITHUB?: string;
@@ -134,7 +136,7 @@ export const DATA = {
         "Streamlit",
         "PyPDF",
       ],
-      IMAGE: null,
+      IMAGE: Lumynary,
     },
 
     "RAG-GITA — Sustainable Spiritual AI System": {
@@ -145,7 +147,7 @@ export const DATA = {
         "Published as a research paper exploring AI + spirituality.",
       ],
       TECH_STACK: ["Python", "LangChain", "VectorDB", "LLMs", "Embeddings"],
-      IMAGE: null,
+      IMAGE: RagGita,
     },
   },
 
